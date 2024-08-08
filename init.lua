@@ -4,7 +4,7 @@ print("lua UwU")
 
 
 
-vim.g.material_style = "deep ocean"
+-- vim.g.material_style = "deep ocean"
 
 -- vim.g.user_emmet_mode = 'a'
 -- vim.g.user_emmet_install_global = 0
@@ -14,7 +14,7 @@ vim.g.material_style = "deep ocean"
 --  pattern = { "html", "css" },
 --  command = "EmmetInstall"
 --})
-vim.cmd('colorscheme material')
+vim.cmd('colorscheme tokyonight-night')
 vim.cmd('set number')
 vim.cmd('set relativenumber')
 vim.cmd('set termguicolors')
@@ -35,6 +35,7 @@ require('lualine').setup()
 
 
 require('lspconfig').pyright.setup{}
+require('lspconfig').vimls.setup{}
 
 require('cmp').setup({
     snippet = {

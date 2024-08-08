@@ -2,6 +2,8 @@
 
 return require('packer').startup(function(use)
   use {
+  "~/Desktop/Uwuifier"}
+  use {
   "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
     requires = { 
@@ -12,6 +14,7 @@ return require('packer').startup(function(use)
     }
   }
   use "marko-cerovac/material.nvim"
+  use "folke/tokyonight.nvim"
   use "ap/vim-css-color"
   use "NvChad/nvim-colorizer.lua"
   use 'mg979/vim-visual-multi'
