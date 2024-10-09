@@ -1,6 +1,15 @@
 --vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)
+  -- use 'mfussenegger/nvim-dap'
+  -- use "rust-lang/rust.vim"
+  -- use "mrcjkb/rustaceanvim"
+  use 'm4xshen/autoclose.nvim'
+  -- use 'cohama/lexima.vim'
+  use 'mfussenegger/nvim-jdtls'
+  use 'simrat39/rust-tools.nvim'
+  use 'williamboman/mason.nvim'    
+  use 'williamboman/mason-lspconfig.nvim'
   use {
   "~/Desktop/Uwuifier"}
   use {
